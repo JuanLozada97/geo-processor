@@ -1,0 +1,22 @@
+{
+  "name": "web-next",
+  "root": "apps/web-next",
+  "sourceRoot": "apps/web-next/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx next dev",
+        "cwd": "apps/web-next"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx next build",
+        "cwd": "apps/web-next"
+      }
+    }
+  }
+}

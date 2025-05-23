@@ -3,8 +3,17 @@
   "compileOnSave": false,
   "files": [],
   "references": [
-    { "path": "./libs/dto" },
-    { "path": "./apps/api-nest" }, 
-    { "path": "./apps/geo-python" }  
+    {
+      "path": "./libs/dto"
+    },
+    {
+      "path": "./apps/api-nest"
+    },
+    {
+      "path": "./apps/geo-python"
+    },
+    {
+      "path": "./apps/web-next"
+    }
   ]
 }

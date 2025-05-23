@@ -3,11 +3,8 @@
   "compileOnSave": false,
   "files": [],
   "references": [
-    {
-      "path": "./apps/api-nest"
-    },
-    {
-      "path": "./libs/dto"
-    }
+    { "path": "./libs/dto" },
+    { "path": "./apps/api-nest" }, 
+    { "path": "./apps/geo-python" }  
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "name": "api-nest",
+  "root": "apps/api-nest",
+  "sourceRoot": "apps/api-nest/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "ts-node -r tsconfig-paths/register src/main.ts",
+        "cwd": "apps/api-nest"
+     }
+    }
+  }
+}

@@ -76,7 +76,7 @@ Follow these steps from the repo root (`geo-processor/`):
 ### 2. Clone & install dependencies
 
 ```bash
-git clone <your-repo-url> geo-processor
+git clone https://github.com/JuanLozada97/geo-processor geo-processor
 cd geo-processor
 pnpm install
 ```
